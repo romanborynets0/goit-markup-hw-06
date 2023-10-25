@@ -200,6 +200,10 @@ button {
 
 
 @media screen and (min-width: 768px) {
+    .navigation{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
     .header-address-list {
         display: flex;
         row-gap: 12px;
@@ -745,8 +749,7 @@ button {
 
 .bottom-logo {
     display: block;
-    margin: 0 auto 17px;
-    width: fit-content;
+    margin: 0 auto 17px; 
 }
 
 .footer-logo__container {
